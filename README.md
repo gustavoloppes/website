@@ -1,6 +1,6 @@
 # Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+This site was created in the food delivery model focused on simplifying the ordering. The customer had problems answering the messages and writing down the requests on time, so we created a simple but effective way to solve this problem.
 
 ## Development server
 
@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular components were created by creating their logic with TypeScript language. All components are included in the module and the routes are in operation.
 
 ## Build
 
