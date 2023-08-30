@@ -1,0 +1,44 @@
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-6" *ngIf="menuData">
+      <a routerLink="../../menu" class="btn btn-sm btn-warnig mb-2"><i class="bi bi-arrow-left"></i> Back</a>
+      <img src="{{menuData[0].foodImg}}" width="100%">
+      <h1>{{menuData[0].foodName}}</h1>
+      <p>{{menuData[0].foodDetails}}</p>
+      <p>{{menuData[0].foodPrice | currency: 'USD'}}</p>
+    </div>
+
+    <div class="container-form col-lg-6">
+      <h1 class="text-center">Delivery Details</h1>
+      <form class="row g-3">
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn">Submit <i class="bi bi-cart-check-fill"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

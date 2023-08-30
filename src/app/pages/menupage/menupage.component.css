@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgba(101, 138, 108, 0.673);
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(112, 159, 122);
+  color: white;
+}
+
+a {
+  background-color: rgba(101, 138, 108, 0.673);
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(112, 159, 122);
+  color: white;
+}
